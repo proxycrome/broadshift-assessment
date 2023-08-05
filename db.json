@@ -1,0 +1,91 @@
+{
+  "questionnaires": [
+    {
+      "id": "1691164426825",
+      "stepNumbers": "3",
+      "step": "1",
+      "inputType": "text",
+      "questionNumber": "1",
+      "question": "What is your name?",
+      "options": []
+    },
+    {
+      "id": "1691164477772",
+      "stepNumbers": "3",
+      "step": "1",
+      "inputType": "text",
+      "questionNumber": "2",
+      "question": "Where are you located?",
+      "options": []
+    },
+    {
+      "id": "1691164538888",
+      "stepNumbers": "3",
+      "step": "1",
+      "inputType": "radio",
+      "questionNumber": "3",
+      "question": "Will you be willing to relocate to the UK?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "id": "1691164578553",
+      "stepNumbers": "3",
+      "step": "2",
+      "inputType": "text",
+      "questionNumber": "1",
+      "question": "Why?",
+      "options": []
+    },
+    {
+      "id": "1691164637766",
+      "stepNumbers": "3",
+      "step": "2",
+      "inputType": "radio",
+      "questionNumber": "2",
+      "question": "Do you have a Passport",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "id": "1691164705370",
+      "stepNumbers": "3",
+      "step": "3",
+      "inputType": "checkbox",
+      "questionNumber": "1",
+      "question": "Which country would you like to visit?",
+      "options": [
+        "kenya",
+        "Ghana",
+        "Uganda"
+      ]
+    },
+    {
+      "id": "1691250025426",
+      "stepNumbers": "3",
+      "step": "1",
+      "inputType": "text",
+      "questionNumber": "4",
+      "question": "How much do you have?",
+      "options": []
+    }
+  ],
+  "answers": [
+    {
+      "What is your name?": "Tommy",
+      "Where are you located?": "Lagos",
+      "Will you be willing to relocate to the UK?": "Yes",
+      "Why?": "A Massage",
+      "Do you have a Passport": "Yes",
+      "Which country would you like to visit?": [
+        "kenya",
+        "Ghana"
+      ],
+      "id": 1
+    }
+  ]
+}

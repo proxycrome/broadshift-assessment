@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Navigate} from 'react-router-dom'
+import CreateQuestionnaire from './pages/createQuestionnaire';
+import Questionnaires from './pages/questionnaires';
+import Questionnaire from './pages/questionnaire';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/create-questionnaire"  element={<CreateQuestionnaire />}/>
+        <Route path="/questionnaire/:id"  element={<Questionnaire />}/>
+        <Route path="/questionnaires"  element={<Questionnaires />}/> 
+        <Route path="/" element={<Navigate to="/create-questionnaire" replace />} /> 
+      </Routes>
     </div>
   );
 }
